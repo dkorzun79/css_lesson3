@@ -1,0 +1,90 @@
+#container {
+ width:694px;
+  text-align:justify;
+  background-color:#fff;
+  margin:auto;
+}
+
+body {
+
+background-color:#cccccc;
+font-family: Verdana;
+font-size:11px;
+}
+
+p:first-letter {
+color:blue;
+font-weight:bold;
+font-size:38px;
+font-family: 'Times New Roman', Times, serif;
+}
+
+
+#content {
+width:695px;
+height:600px;
+float:left;
+background-color:#FFF;
+padding-left: 0px;
+}
+
+#header {
+height: 50px;
+background-color:#b0b0b0;
+overflow: hidden;
+}
+
+h1 {
+padding:8px 0 0 37px;
+margin-top:7px;
+}
+
+h3{
+padding:0 0 0 10px;
+}
+
+ul {
+margin:0 0px;
+padding:0 0px;
+list-style:none;
+text-transform:uppercase;
+}
+
+li {
+display:inline;
+float:left;
+color:#fff;
+}
+
+a{
+padding:0 10px;
+line-height:25px;
+text-decoration:none;
+color:#fff;
+float:left;
+display:block;
+background-image: url(../images/nb.gif);
+background-repeat: repeat-x;
+}
+
+a:hover {
+color:#333;
+}
+
+a:visited {
+color:black;
+text-decoration:none;
+}
+
+.foto1 {
+position:relative;
+top:10px;
+left:10px;
+}
+
+.foto2 {
+position:relative;
+top:-100px;
+left:100px;
+z-index: 10;
+}
